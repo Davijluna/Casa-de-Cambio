@@ -1,5 +1,5 @@
-const fetchCurrency = async () => {
-  const url = 'https://api.exchangerate.host/latest';
+const fetchCurrency = async (currency) => {
+  const url = `https://api.exchangerate.host/latest?base=${currency}`;
   const result = await fetch(url)
   const data = await result.json();
   handleRates(data);
@@ -7,5 +7,6 @@ const fetchCurrency = async () => {
 
 // para não precisar chamar a função a toda hora.
 window.onload = () => {
-  fetchCurrency();
+  // fetchCurrency();
+  setupHandlers();
 }

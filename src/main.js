@@ -12,3 +12,13 @@ const handleRates = ({rates}) => {
     renderRates(currency, rates);
   });
 }
+
+const handleSearchEvent = () => {
+  const currencyInput = document.querySelector('#currency-input');
+  fetchCurrency(currencyInput.value);
+}
+
+const setupHandlers = () => {
+  const serchbtn = document.querySelector('#btn-pesquisar')
+  serchbtn.addEventListener('click', handleSearchEvent)
+}
