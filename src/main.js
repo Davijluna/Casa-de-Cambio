@@ -17,6 +17,7 @@ const handleSearchEvent = () => {
   clearRatesList();
   const currencyInput = document.querySelector('#currency-input');
   fetchCurrency(currencyInput.value);
+  renderBase(currencyInput.value)
 }
 
 const setupHandlers = () => {
@@ -27,4 +28,9 @@ const setupHandlers = () => {
 const clearRatesList = () => {
   const list = document.querySelector('#currency-list');
   list.innerHTML = '';
+}
+
+const renderBase = ({base}) => {
+  const baseH2 = document.querySelector('#base')
+  baseH2.innerText = `Valore referentes á 1 ${base}`
 }
