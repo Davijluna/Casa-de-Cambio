@@ -14,6 +14,7 @@ const handleRates = ({rates}) => {
 }
 
 const handleSearchEvent = () => {
+  clearRatesList();
   const currencyInput = document.querySelector('#currency-input');
   fetchCurrency(currencyInput.value);
 }
@@ -21,4 +22,9 @@ const handleSearchEvent = () => {
 const setupHandlers = () => {
   const serchbtn = document.querySelector('#btn-pesquisar')
   serchbtn.addEventListener('click', handleSearchEvent)
+}
+
+const clearRatesList = () => {
+  const list = document.querySelector('#currency-list');
+  list.innerHTML = '';
 }
