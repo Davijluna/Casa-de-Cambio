@@ -9,7 +9,7 @@
 <br>
 
 ## 🧑‍💻 Tecnologias
-- [JavaScritp](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [APIs e Requisições HTTP](https://www.currencyconverterapi.com/docs)
