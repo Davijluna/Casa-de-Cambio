@@ -32,5 +32,5 @@ const clearRatesList = () => {
 
 const renderBase = ({base}) => {
   const baseH2 = document.querySelector('#base')
-  baseH2.innerText = `Valore referentes á 1 ${base}`
+  baseH2.innerText = `Valore referentes a 1 ${base}`
 }

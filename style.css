@@ -1,0 +1,23 @@
+body, #divCenter {
+  position:absolute;
+  top: 40px;
+  left: 100px;
+  width: 469px;
+}
+
+#divLabel {
+  width: 200px;
+}
+
+input {
+  top: 5px;
+  border-radius: 8px;
+  Height:23px;
+  width: 80px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+#aling {
+  display: flex;
+}
