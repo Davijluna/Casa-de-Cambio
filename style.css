@@ -1,3 +1,6 @@
+body {
+  background-color: rgb(41, 129, 71);
+}
 body, #divCenter {
   position:absolute;
   top: 40px;
